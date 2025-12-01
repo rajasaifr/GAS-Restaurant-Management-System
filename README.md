@@ -57,6 +57,6 @@ This is a full-stack restaurant management system that includes table reservatio
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/rajasaifr/GAS-Restaurant-Management-System.git
 cd restaurant-management-system
 
