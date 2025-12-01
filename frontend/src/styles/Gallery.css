@@ -1,0 +1,54 @@
+.gallery-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #433b3b; /* Light grey background */
+  }
+  
+  .gallery-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #080808;
+  }
+  
+  .gallery-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: #060606;
+    margin-bottom: 40px;
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh; /* Vertical gap based on viewport height */
+  }
+  
+  .gallery-item {
+    width: 100%;
+    margin-bottom: 5vh;
+  }
+  
+  .image-caption {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #f3f1f1;
+    letter-spacing: 0.5px;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  
+  /* Add these Google Fonts to your index.html or import in CSS */
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Montserrat:wght@300;400&display=swap');

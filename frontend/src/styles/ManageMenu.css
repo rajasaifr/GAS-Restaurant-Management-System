@@ -1,0 +1,154 @@
+/* Admin Menu Styling */
+
+.admin-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+  }
+  
+  .admin-container h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .admin-container h3 {
+    color: #404842;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    font-weight: 500;
+  }
+  
+  /* Form Styling */
+  .admin-form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-form input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .admin-form input:focus {
+    border-color: #404842;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(64, 72, 66, 0.2);
+  }
+  
+  /* Table Styling */
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .admin-table th {
+    background-color: #404842;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 500;
+  }
+  
+  .admin-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .admin-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .admin-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .admin-table input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: #404842;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #333a36;
+  }
+  
+  .btn-success {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #43a047;
+  }
+  
+  .btn-danger {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e53935;
+  }
+  
+  /* Status Messages */
+  .loading, .error {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .admin-container {
+      padding: 0 1rem;
+    }
+    
+    .admin-table {
+      display: block;
+      overflow-x: auto;
+    }
+    
+    .admin-form input,
+    .btn {
+      font-size: 0.9rem;
+    }
+  }
